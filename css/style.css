@@ -31,3 +31,9 @@ body {
   padding-bottom: 10px;
   border-bottom: 1px solid #290148;
 }
+
+.select-box .title {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0;
+}
