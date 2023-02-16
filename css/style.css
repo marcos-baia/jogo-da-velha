@@ -13,3 +13,12 @@ body {
   background: linear-gradient(137deg,#290148 0%, #fe00ba 450%);
 }
 
+.select-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px 25px 25px;
+  border-radius: 5px;
+}
