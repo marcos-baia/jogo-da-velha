@@ -37,3 +37,36 @@ body {
   font-weight: 500;
   margin: 20px 0;
 }
+
+.select-box .option{
+  display: flex;
+  width: 100%;
+  gap: 3px;
+}
+
+.option button{
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 0;
+  border: none;
+  outline: none;
+  background: #290148;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+.option button:hover{
+  transform: scale(0.9);
+}
+
+.option button jogadorX {
+  margin-right: 5px;
+}
+
+.option button jogadorO {
+  margin-left: 5px;
+}
