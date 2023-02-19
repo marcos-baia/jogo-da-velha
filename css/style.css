@@ -27,8 +27,14 @@ body {
   border-radius: 5px;
   max-width: 330px;
   width: 100%;
+  transition: all 0.3s ease;
+  /*display: none;*/
+}
 
-  display: none;
+.select-box.hide{
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.9);
 }
 
 .select-box header {
@@ -159,6 +165,8 @@ body {
   border-radius: 5px;
   max-width: 350px;
   width: 100%;
+
+  display:none;
 }
 
 .result-box .won-text{
